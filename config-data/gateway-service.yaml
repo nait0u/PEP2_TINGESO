@@ -29,7 +29,7 @@ spring:
           predicates:
             - Path=/acopio/**
         - id: planilla-service
-          uri: lb://planilla-service
+          uri: lb://pagofinal-service
           predicates:
             - Path=/planilla/**
         - id: porcentaje-service

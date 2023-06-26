@@ -4,21 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="058632c5-0b1b-47c1-9eb0-1d2b1430053d" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+    <list default="true" id="058632c5-0b1b-47c1-9eb0-1d2b1430053d" name="Changes" comment="a">
+      <change afterPath="$PROJECT_DIR$/backend/gatewayService/src/main/resources/bootstrap.yaml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/acopioService/acopioService.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/configService/configService.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/configService/src/main/resources/aplication.yml" beforeDir="false" afterPath="$PROJECT_DIR$/backend/configService/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/eurekaService/eurekaService.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/gatewayService/gatewayService.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/pagoFinalService/pagoFinalService.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/porcentajeService/porcentajeService.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/proveedorService/proveedorService.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/config-data/acopioservice-service.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/config-data/acopio-service.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config-data/pagofinalservice-service.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/config-data/pagofinal-service.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config-data/porcentajeservice-service.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/config-data/porcentaje-service.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config-data/proveedorservice-service.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/config-data/proveedor-service.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/gatewayService/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/backend/gatewayService/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/gatewayService/src/main/resources/bootstrap.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/config-data/gateway-service.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/config-data/gateway-service.yaml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,21 +45,25 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;spring.configuration.checksum&quot;: &quot;1b18c86fb7055716a1546e18adf05157&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "ignore.virus.scanning.warn.message": "true",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "spring.configuration.checksum": "1b18c86fb7055716a1546e18adf05157",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RunDashboard">
     <option name="configurationTypes">
       <set>
@@ -76,7 +71,7 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.AcopioServiceApplication">
+  <component name="RunManager" selected="Spring Boot.GatewayServiceApplication">
     <configuration name="AcopioServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
       <module name="acopioService" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="MilkStgo.PEP2.acopioService.AcopioServiceApplication" />
@@ -138,8 +133,17 @@
       <workItem from="1687461380296" duration="3295000" />
       <workItem from="1687467342041" duration="943000" />
       <workItem from="1687469448288" duration="10000" />
-      <workItem from="1687817892974" duration="1142000" />
+      <workItem from="1687817892974" duration="1591000" />
     </task>
+    <task id="LOCAL-00001" summary="a">
+      <option name="closed" value="true" />
+      <created>1687819045164</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1687819045164</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -147,5 +151,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="a" />
+    <option name="LAST_COMMIT_MESSAGE" value="a" />
   </component>
 </project>
