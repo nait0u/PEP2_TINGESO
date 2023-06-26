@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+<<<<<<< Updated upstream
+      <module fileurl="file://$PROJECT_DIR$/acopioService/acopioService.iml" filepath="$PROJECT_DIR$/acopioService/acopioService.iml" />
+      <module fileurl="file://$PROJECT_DIR$/configService/configService.iml" filepath="$PROJECT_DIR$/configService/configService.iml" />
+      <module fileurl="file://$PROJECT_DIR$/eurekaService/eurekaService.iml" filepath="$PROJECT_DIR$/eurekaService/eurekaService.iml" />
+      <module fileurl="file://$PROJECT_DIR$/gatewayService/gatewayService.iml" filepath="$PROJECT_DIR$/gatewayService/gatewayService.iml" />
+      <module fileurl="file://$PROJECT_DIR$/pagoFinalService/pagoFinalService.iml" filepath="$PROJECT_DIR$/pagoFinalService/pagoFinalService.iml" />
+      <module fileurl="file://$PROJECT_DIR$/porcentajeService/porcentajeService.iml" filepath="$PROJECT_DIR$/porcentajeService/porcentajeService.iml" />
+      <module fileurl="file://$PROJECT_DIR$/proveedorService/proveedorService.iml" filepath="$PROJECT_DIR$/proveedorService/proveedorService.iml" />
+=======
+      <module fileurl="file://$PROJECT_DIR$/.idea/backend.iml" filepath="$PROJECT_DIR$/.idea/backend.iml" />
+>>>>>>> Stashed changes
+    </modules>
+  </component>
+</project>

@@ -1,0 +1,75 @@
+package MilkStgo.PEP2.acopioService.Controllers;
+
+import MilkStgo.PEP2.acopioService.Services.AcopioService;
+import org.springframework.http.ResponseEntity;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RestController;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.web.bind.annotation.*;
+import org.springframework.web.multipart.MultipartFile;
+import org.springframework.web.servlet.mvc.support.RedirectAttributes;
+import java.util.ArrayList;
+
+
+@RestController
+@RequestMapping("/acopio")
+public class AcopioController {
+
+    @Autowired
+    AcopioService acopioService;
+
+    @PostMapping
+    public ResponseEntity<Boolean> uploadAcopio(@RequestParam("file") MultipartFile file, RedirectAttributes redirectAttributes) {
+        acopioService.guardar(file);
+        boolean correcto = acopioService.leerCsvAcopio(file.getOriginalFilename());
+        if (correcto)
+        {
+            redirectAttributes.addFlashAttribute("mensaje", "¡Archivo cargado correctamente!");
+        }
+        else
+        {
+            redirectAttributes.addFlashAttribute("mensaje", "Verifique el archivo que esta subiendo");
+        }
+
+        return ResponseEntity.ok(correcto);
+    }
+
+    @GetMapping("/fechas/{codigo}")
+    public ResponseEntity<ArrayList<String>> obtenerFechasAcopio(@PathVariable("codigo") String codigo)
+    {
+        ArrayList<String> fechas = acopioService.obtenerFechas(codigo);
+        if(fechas.isEmpty()){
+            return ResponseEntity.noContent().build();
+        }
+        return ResponseEntity.ok(fechas);
+    }
+
+    @GetMapping("/kls/{codigo}")
+    public ResponseEntity<Integer> obtenerKlsLeche(@PathVariable("codigo") String codigo)
+    {
+        int kls = acopioService.klsLeche(codigo);
+        return ResponseEntity.ok(kls);
+    }
+
+    @GetMapping("/turnos/{codigo}")
+    public ResponseEntity<ArrayList<Boolean>> obtenerTurnos(@PathVariable("codigo") String codigo)
+    {
+        ArrayList<Boolean> turnos = acopioService.obtenerTurnos(codigo);
+        if(turnos.isEmpty()){
+            return ResponseEntity.noContent().build();
+        }
+        return ResponseEntity.ok(turnos);
+    }
+
+    @GetMapping("/variacionLeche/{codigo}")
+    public ResponseEntity<ArrayList<String>> obtenerVariacionLeche(@PathVariable("codigo") String codigo)
+    {
+        ArrayList<String> variacionLeche = acopioService.obtenerVariacionLeche(codigo);
+        if(variacionLeche.isEmpty()){
+            return ResponseEntity.noContent().build();
+        }
+        return ResponseEntity.ok(variacionLeche);
+    }
+
+
+}
