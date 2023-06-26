@@ -3,20 +3,10 @@
   <component name="CompilerConfiguration">
     <annotationProcessing>
       <profile default="true" name="Default" enabled="true" />
-<<<<<<< Updated upstream
-    </annotationProcessing>
-  </component>
-=======
       <profile name="Maven default annotation processors profile" enabled="true">
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="eurekaService" />
-        <module name="pagoFinalService" />
-        <module name="configService" />
-        <module name="proveedorService" />
-        <module name="gatewayService" />
-        <module name="porcentajeService" />
         <module name="acopioService" />
       </profile>
     </annotationProcessing>
@@ -24,13 +14,6 @@
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="acopioService" options="-parameters" />
-      <module name="configService" options="-parameters" />
-      <module name="eurekaService" options="-parameters" />
-      <module name="gatewayService" options="-parameters" />
-      <module name="pagoFinalService" options="-parameters" />
-      <module name="porcentajeService" options="-parameters" />
-      <module name="proveedorService" options="-parameters" />
     </option>
   </component>
->>>>>>> Stashed changes
 </project>

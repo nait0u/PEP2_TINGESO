@@ -3,17 +3,5 @@
   <component name="Encoding">
     <file url="file://$PROJECT_DIR$/acopioService/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/acopioService/src/main/resources" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/configService/src/main/java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/configService/src/main/resources" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/eurekaService/src/main/java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/eurekaService/src/main/resources" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/gatewayService/src/main/java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/gatewayService/src/main/resources" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/pagoFinalService/src/main/java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/pagoFinalService/src/main/resources" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/porcentajeService/src/main/java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/porcentajeService/src/main/resources" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/proveedorService/src/main/java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/proveedorService/src/main/resources" charset="UTF-8" />
   </component>
 </project>
